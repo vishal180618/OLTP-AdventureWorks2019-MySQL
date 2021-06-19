@@ -12,7 +12,7 @@ mysql> create database your_database_name;
 mysql> use your_database_name;
 mysql> source /home/sysadmin/Downloads/AdventureWorks2019.sql;
 ```
-Otherwise you can directly import it using terminal:
+Otherwise you can directly import it using terminal:<br>
 **Note:** `your_database_name` db already needs to be present/created in MySQL.
 ```
 mysql -u username -p your_database_name < /home/sysadmin/Downloads/AdventureWorks2019.sql
